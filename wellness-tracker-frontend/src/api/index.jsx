@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000'; // Ensure this matches your Flask backend URL
+const API_BASE_URL = 'https://wellness-tracker-1.onrender.com'; // Ensure this matches your Flask backend URL
 
 const api = {
   // Helper to make authenticated requests
