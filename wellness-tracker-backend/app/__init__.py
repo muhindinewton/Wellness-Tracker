@@ -20,7 +20,19 @@ def create_app():
     from .extensions import migrate
     migrate.init_app(app, db, directory='app/migrations')
     jwt.init_app(app)
-    cors.init_app(app)
+    # Configure CORS
+    cors.init_app(app, resources={
+        r"/*": {
+            "origins": [
+                "https://wellness-tracker-1.onrender.com",
+                "http://localhost:5173",
+                "http://localhost:3000"
+            ],
+            "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+            "allow_headers": ["Content-Type", "Authorization"],
+            "supports_credentials": True
+        }
+    })
 
     # Register blueprints (routes)
     app.register_blueprint(auth_bp)
