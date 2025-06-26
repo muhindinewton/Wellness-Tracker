@@ -9,6 +9,7 @@ virtual/
 # Environment variable files
 .env
 *.env
+.venv/
 
 # VS Code settings
 .vscode/
