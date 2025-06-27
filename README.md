@@ -94,7 +94,7 @@ A full-stack web application that helps users develop consistent wellness routin
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Wellness-Tracker.git
+   git clone https://github.com/muhindinewton/Wellness-Tracker.git
    cd Wellness-Tracker
    ```
 
@@ -220,10 +220,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- **Newton Muhindi** - [@github](https://github.com/newtonmuhindi)
-- **Presbury Wamae** - [@github](https://github.com/presburywamae)
+- **Newton Muhindi** - [@github](https://github.com/muhindinewton)
+- **Presbury Wamae** - [@github](https://github.com/Presbury-Wamae)
 
-Project Link: [https://github.com/newtonmuhindi/Wellness-Tracker]
+Project Link: [https://github.com/muhindinewton/Wellness-Tracker]
 
 ## 🙏 Acknowledgments
 
