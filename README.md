@@ -233,3 +233,4 @@ Project Link: [https://github.com/muhindinewton/Wellness-Tracker]
 - [Vite](https://vitejs.dev/) - Frontend tooling
 - [SQLite](https://www.sqlite.org/) - Database engine
 - [JWT](https://jwt.io/) - For authentication
+
